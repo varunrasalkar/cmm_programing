@@ -1,0 +1,25 @@
+%
+N010 G00 G21 Z30 F200			(Point _1 on the curved surface in Red)
+N020 G00 G01 G54 X0.0 Y0.0
+N030 G00 G01 X5 Z-5
+N040 G38.2 Y27 F30			(Point _2 on the curved surface in Red)
+N050 G00 G01 Y00 F200
+N060 G00 G01 X10
+N070 G38.2 Y25 F30			(Point _3 on the curved surface in Red)
+N080 G00 G01 F200
+N090 G00 G01 X15
+N100 G38.2 Y23 F30			(Point_4 on the linear surface in Blue)
+N110 G00 G01 Y0 F200
+N120 G00 G01 X20
+N130 G38.2 Y20 F30			(Point_5 on the linear surface in Blue)
+N140 G00 G01 Y0 F200
+N150 G00 G01 X35
+N160 G38.2 Y15 F30			(Point_6 on the linear surface in Blue)
+N170 G00 G01 Y0 F200
+N180 G00 G01 X50
+N190 G38.2 Y10 F30
+N200 G00 G01 Y0 F200
+N210 G00 G01 X0
+N220 G00 G01 Z30
+M30					(End of the program)
+%
